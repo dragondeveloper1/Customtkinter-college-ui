@@ -1,0 +1,12 @@
+This is a requirement file where required depedencies and tools needed.
+Database: Postgresql, source:https://www.postgresql.org/download/windows/
+packages: customtkinter,pillow,psycopg2
+commands:
+    pip install psycopg2
+    pip install pillow
+    pip install customtkinter
+
+note: after installing database, open pgadmin and enter your password.
+    Then create a database.
+    open db_connect.py and change in place of db name and password.
+    for test putpose: user: user, password:password, and select user type. And then press enter.
